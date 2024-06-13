@@ -1,0 +1,324 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.heading{
+    margin-top: 3%;
+    text-align: center;
+}
+.heading h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.heading h3{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+}
+.image img{
+    height: 250px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+.note{
+    margin-top: 2%;
+    margin-left: 2%;
+    color: grey;
+}
+.dropdown1,.dropdown2 {
+    position: relative;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dropbtn1,.dropbtn2,.dropbtn3,.dropbtn4,.dropbtn5,.dropbtn6,.dropbtn7,.dropbtn8{
+    margin-left: 30px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(237, 228, 228);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid rgb(192, 179, 179);
+    font-size: 17px;
+    box-shadow: rgb(192, 179, 179) 0px 2px 4px, rgb(192, 179, 179) 0px 7px 13px -3px,rgb(192, 179, 179) 0px -3px 0px inset;
+}
+.dropbtn2{
+    width: 150px;
+}
+.dropbtn3,.dropbtn4{
+    width: 270px;
+    margin-bottom: 2%;
+}
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: rgb(237, 228, 228);
+    min-width: 140px;
+    z-index: 1;
+    margin-left: 10%;
+    box-shadow: rgb(181, 166, 166)0px 3px 8px;
+}
+
+.dropdown1:hover .dropdown-content1{
+    display: block;
+}
+
+.dropdown-content1 a{
+    color: black;
+    padding: 12px 16px ;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content1 a:hover{
+    background-color: rgb(159, 150, 150);
+}
+.body{
+    display: flex;
+    width: 100%;
+}
+.left{
+     width: 70%;
+     margin-bottom: 10%;
+     margin-top: 3%;
+}
+.right{
+    width: calc(100% - 70%);
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+.box{
+    width: 80%;
+    height: 350px;
+    margin-left: 12%;
+    border: 0.5px solid rgb(115, 109, 109);
+    border-radius: 20px;
+}
+.box h4{
+    margin-top: 4%;
+    margin-left: 4%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box h5{
+    margin-left: 4%;
+    margin-top: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(102, 99, 99);
+}
+.input{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 7%;
+    border: 2px solid rgb(202, 193, 193);
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+}
+.input input{
+    border: white;
+    margin-left: 5%;
+}
+.input i{
+    margin-top: 3%;
+    margin-left: 2%;
+    font-size: 20px;
+}
+.send{
+    margin-left: 8%;
+    margin-top: 8%;
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    background-color: blue;
+}
+.send p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.ads img{
+    height: 250px;
+    width: 300px;
+    margin-left: 17%;
+    margin-top: 5%;
+}
+.enroll{
+    margin-left: 17%;
+    margin-top: 2%;
+    height: 40px;
+    width: 300px;
+    background-color: rgb(8, 8, 8);
+    border-radius: 10px;
+}
+.enroll p{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    margin-left: 19%;
+}
+.enroll a{
+    text-decoration: none;
+}
+.c1,.c2{
+    display: flex;
+    width: 100%;
+    height: 320px;
+    border: 0.5px solid rgb(115, 109, 109);
+    margin-left: 3%;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.c2{
+    margin-top: 5%;
+}
+.image1 img{
+    height: 200px;
+    width: 200px;
+    margin-top: 20%;
+    margin-left: 5%;
+}
+.name1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-top: 5%;
+}
+.con{
+    margin-left: 5%;
+}
+.rate{
+    display: flex;
+    margin-top: 3%;
+}
+.point{
+    height: 25px;
+    width: 40px;
+    background-color: rgb(134, 213, 15);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: 2%;
+}
+.write {
+    color: grey;
+    margin-left: 3%;
+}
+.address,.fee{
+    margin-top: 2%;
+    display: flex;
+}
+.address i,.fee i{
+    font-size: 20px;
+    margin-right: 3%;
+}
+.address p,.fee p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.Contact{
+    display: flex;
+}
+.phone,.enquiry,.chat{
+    background-color: rgb(182, 120, 63);
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin-top: 3%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.enquiry,.chat{
+    background-color: blue;
+    width: 150px;
+    margin-left: 3%;
+}
+.chat{
+    background-color: rgb(14, 157, 14);
+    width: 100px;
+}
+.phone p,.enquiry p{
+    margin-top: 4%;
+    margin-left: 3%;
+}
+.chat p{
+    margin-top: 7%;
+    margin-left: 5%;
+}
+.phone i{
+    margin-top: 4%;
+}
+.chat i{
+    margin-top: 9%;
+}
+.phone:hover,.enquiry:hover,.chat:hover{
+    box-shadow: rgb(17, 11, 6)0px 5px 15px;
+}
+.like{
+    margin-right: 3%;
+    margin-top: 2%;
+    font-size: 40px;
+    color: rgb(192, 179, 179);
+    cursor: pointer;
+}
+.like i:hover{
+    color: red;
+}
+.footer {
+    background-color: rgb(231, 223, 218);
+    color: #0e0d0d;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 5px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-content ul li a {
+    color: #121111;
+    text-decoration: none;
+}
+
+.footer-content ul li a:hover {
+    text-decoration: underline;
+}
